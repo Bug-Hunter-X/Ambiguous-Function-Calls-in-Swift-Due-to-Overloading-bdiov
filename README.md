@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with function overloading in Swift.  Two `calculateArea` functions are defined, one returning a `Double` and the other a `String`.  When calling the function without specifying the unit, Swift will choose the function that best matches the input.  In this case, it will pick the second function, which will add the default unit.
